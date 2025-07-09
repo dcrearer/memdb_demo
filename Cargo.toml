@@ -1,0 +1,14 @@
+[package]
+name = "memdb_demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aws-sdk-memorydb = "1.0"
+aws-config = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+config = "0.15.11"
+serde = { version = "1", features = ["derive"]}
+anyhow = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
